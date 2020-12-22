@@ -1,3 +1,3 @@
 # mux-practice
-Sets up a small sushi api using mux router
+Sets up a small sushi api using mux router.
 CRUD functionality
