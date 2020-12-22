@@ -18,7 +18,7 @@ type Roll struct {
 var rolls []Roll
 
 func getRoll(w http.ResponseWriter, r *http.Request) {
-	//Content-Type headeer indicates if we are working with text/html
+	//Content-Type header indicates if we are working with text/html
 	//or text/json
 	//This helps the client in processing the response body correctly
 	w.Header().Set("Content-Type", "application/json")
